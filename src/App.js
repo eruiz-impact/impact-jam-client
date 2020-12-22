@@ -7,12 +7,12 @@ class App extends React.Component {
   constructor(props) {
     super(props);
   }
-  componentDidMount() {
-    Axios.get("http://localhost:1337/apis")
-      .then((response) => {
-        console.log(response.data)
-      });
-  }
+  // componentDidMount() {
+  //   Axios.get("http://localhost:1337/apis")
+  //     .then((response) => {
+  //       console.log(response.data)
+  //     });
+  // }
   render() {
     return (
       <div className="App">
