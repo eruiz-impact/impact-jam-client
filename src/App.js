@@ -8,7 +8,7 @@ class App extends React.Component {
     super(props);
   }
   componentDidMount() {
-    Axios.get("https://impact-jam-server.herokuapp.com/apis")
+    Axios.get("/apis")
       .then((response) => {
         console.log(response.data)
       });
